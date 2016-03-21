@@ -51,6 +51,10 @@
 		E8DB02131C9FC25100F437C3 /* IDEProjectStructureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDEProjectStructureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8DB02171C9FC25100F437C3 /* IDEProjectStructureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDEProjectStructureUITests.m; sourceTree = "<group>"; };
 		E8DB02191C9FC25100F437C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8DB02461C9FC6DF00F437C3 /* AppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppMacro.h; path = IDEProjectStructure/AppMacro.h; sourceTree = SOURCE_ROOT; };
+		E8DB02471C9FC6DF00F437C3 /* NotificationMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NotificationMacro.h; path = IDEProjectStructure/NotificationMacro.h; sourceTree = SOURCE_ROOT; };
+		E8DB02481C9FC6DF00F437C3 /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UtilsMacro.h; path = IDEProjectStructure/UtilsMacro.h; sourceTree = SOURCE_ROOT; };
+		E8DB02491C9FC6DF00F437C3 /* VendorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VendorMacro.h; path = IDEProjectStructure/VendorMacro.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		E8DB01F11C9FC25100F437C3 /* IDEProjectStructure */ = {
 			isa = PBXGroup;
 			children = (
+				E8DB02411C9FC26400F437C3 /* Class */,
 				E8DB01F51C9FC25100F437C3 /* AppDelegate.h */,
 				E8DB01F61C9FC25100F437C3 /* AppDelegate.m */,
 				E8DB01F81C9FC25100F437C3 /* ViewController.h */,
@@ -139,6 +144,270 @@
 			);
 			path = IDEProjectStructureUITests;
 			sourceTree = "<group>";
+		};
+		E8DB02251C9FC26400F437C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/Module(模块)/Login(登录)/../IDECase/Login(登录)/Model";
+			sourceTree = "<absolute>";
+		};
+		E8DB02261C9FC26400F437C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/Module(模块)/Login(登录)/../IDECase/Login(登录)/View";
+			sourceTree = "<absolute>";
+		};
+		E8DB02271C9FC26400F437C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/Module(模块)/Login(登录)/../IDECase/Login(登录)/Controller";
+			sourceTree = "<absolute>";
+		};
+		E8DB02281C9FC26400F437C3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Other;
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/Module(模块)/Login(登录)/../IDECase/Login(登录)/Other";
+			sourceTree = "<absolute>";
+		};
+		E8DB02291C9FC26400F437C3 /* Login(登录) */ = {
+			isa = PBXGroup;
+			children = (
+				E8DB02251C9FC26400F437C3 /* Model */,
+				E8DB02261C9FC26400F437C3 /* View */,
+				E8DB02271C9FC26400F437C3 /* Controller */,
+				E8DB02281C9FC26400F437C3 /* Other */,
+			);
+			name = "Login(登录)";
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/Module(模块)/../IDECase/IDECase/Class/Module(模块)/Login(登录)";
+			sourceTree = "<absolute>";
+		};
+		E8DB022A1C9FC26400F437C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/Module(模块)/Setting(设置)/../IDECase/Setting(设置)/Model";
+			sourceTree = "<absolute>";
+		};
+		E8DB022B1C9FC26400F437C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/Module(模块)/Setting(设置)/../IDECase/Setting(设置)/View";
+			sourceTree = "<absolute>";
+		};
+		E8DB022C1C9FC26400F437C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/Module(模块)/Setting(设置)/../IDECase/Setting(设置)/Controller";
+			sourceTree = "<absolute>";
+		};
+		E8DB022D1C9FC26400F437C3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Other;
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/Module(模块)/Setting(设置)/../IDECase/Setting(设置)/Other";
+			sourceTree = "<absolute>";
+		};
+		E8DB022E1C9FC26400F437C3 /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				E8DB022A1C9FC26400F437C3 /* Model */,
+				E8DB022B1C9FC26400F437C3 /* View */,
+				E8DB022C1C9FC26400F437C3 /* Controller */,
+				E8DB022D1C9FC26400F437C3 /* Other */,
+			);
+			name = "Setting(设置)";
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/Module(模块)/../IDECase/IDECase/Class/Module(模块)/Setting(设置)";
+			sourceTree = "<absolute>";
+		};
+		E8DB022F1C9FC26400F437C3 /* Module(模块) */ = {
+			isa = PBXGroup;
+			children = (
+				E8DB02291C9FC26400F437C3 /* Login(登录) */,
+				E8DB022E1C9FC26400F437C3 /* Setting(设置) */,
+			);
+			name = "Module(模块)";
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/../IDECase/IDECase/Class/Module(模块)";
+			sourceTree = "<absolute>";
+		};
+		E8DB02301C9FC26400F437C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/Public(公共)/../IDECase/IDECase/Class/Public(公共)/Model";
+			sourceTree = "<absolute>";
+		};
+		E8DB02311C9FC26400F437C3 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Navigation;
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/Public(公共)/../IDECase/IDECase/Class/Public(公共)/Navigation";
+			sourceTree = "<absolute>";
+		};
+		E8DB02321C9FC26400F437C3 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TabBar;
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/Public(公共)/../IDECase/IDECase/Class/Public(公共)/TabBar";
+			sourceTree = "<absolute>";
+		};
+		E8DB02331C9FC26400F437C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/Public(公共)/../IDECase/IDECase/Class/Public(公共)/View";
+			sourceTree = "<absolute>";
+		};
+		E8DB02341C9FC26400F437C3 /* General(公共) */ = {
+			isa = PBXGroup;
+			children = (
+				E8DB02301C9FC26400F437C3 /* Model */,
+				E8DB02311C9FC26400F437C3 /* Navigation */,
+				E8DB02321C9FC26400F437C3 /* TabBar */,
+				E8DB02331C9FC26400F437C3 /* View */,
+			);
+			name = "General(公共)";
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/../IDECase/IDECase/Class/Public(公共)";
+			sourceTree = "<absolute>";
+		};
+		E8DB02351C9FC26400F437C3 /* Category(分类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Category(分类)";
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/Expend(扩展)/../IDECase/IDECase/Class/Expend(扩展)/Category(分类)";
+			sourceTree = "<absolute>";
+		};
+		E8DB02361C9FC26400F437C3 /* Const(常量) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Const(常量)";
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/Expend(扩展)/../IDECase/IDECase/Class/Expend(扩展)/Const(常量)";
+			sourceTree = "<absolute>";
+		};
+		E8DB02371C9FC26400F437C3 /* Macros(宏) */ = {
+			isa = PBXGroup;
+			children = (
+				E8DB02461C9FC6DF00F437C3 /* AppMacro.h */,
+				E8DB02471C9FC6DF00F437C3 /* NotificationMacro.h */,
+				E8DB02481C9FC6DF00F437C3 /* UtilsMacro.h */,
+				E8DB02491C9FC6DF00F437C3 /* VendorMacro.h */,
+			);
+			name = "Macros(宏)";
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/Expend(扩展)/../IDECase/IDECase/Class/Expend(扩展)/Macros(宏)";
+			sourceTree = "<absolute>";
+		};
+		E8DB02381C9FC26400F437C3 /* Expend(扩展) */ = {
+			isa = PBXGroup;
+			children = (
+				E8DB02351C9FC26400F437C3 /* Category(分类) */,
+				E8DB02361C9FC26400F437C3 /* Const(常量) */,
+				E8DB02371C9FC26400F437C3 /* Macros(宏) */,
+			);
+			name = "Expend(扩展)";
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/../IDECase/IDECase/Class/Expend(扩展)";
+			sourceTree = "<absolute>";
+		};
+		E8DB02391C9FC26400F437C3 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Image;
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/Resource(资源)/../IDECase/IDECase/Class/Resource(资源)/Image";
+			sourceTree = "<absolute>";
+		};
+		E8DB023A1C9FC26400F437C3 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Plist;
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/Resource(资源)/../IDECase/IDECase/Class/Resource(资源)/Plist";
+			sourceTree = "<absolute>";
+		};
+		E8DB023B1C9FC26400F437C3 /* Zip */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Zip;
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/Resource(资源)/../IDECase/IDECase/Class/Resource(资源)/Zip";
+			sourceTree = "<absolute>";
+		};
+		E8DB023C1C9FC26400F437C3 /* Resource(资源) */ = {
+			isa = PBXGroup;
+			children = (
+				E8DB02391C9FC26400F437C3 /* Image */,
+				E8DB023A1C9FC26400F437C3 /* Plist */,
+				E8DB023B1C9FC26400F437C3 /* Zip */,
+			);
+			name = "Resource(资源)";
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/../IDECase/IDECase/Class/Resource(资源)";
+			sourceTree = "<absolute>";
+		};
+		E8DB023D1C9FC26400F437C3 /* DataBase(数据库) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "DataBase(数据库)";
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/Tool(工具)/../Expend(扩展)/DataBase(数据库)";
+			sourceTree = "<absolute>";
+		};
+		E8DB023E1C9FC26400F437C3 /* Network(网络) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Network(网络)";
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/Tool(工具)/../Expend(扩展)/Network(网络)";
+			sourceTree = "<absolute>";
+		};
+		E8DB023F1C9FC26400F437C3 /* Utils(工具) */ = {
+			isa = PBXGroup;
+			children = (
+				E8DB023D1C9FC26400F437C3 /* DataBase(数据库) */,
+				E8DB023E1C9FC26400F437C3 /* Network(网络) */,
+			);
+			name = "Utils(工具)";
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/../IDECase/IDECase/Class/Tool(工具)";
+			sourceTree = "<absolute>";
+		};
+		E8DB02401C9FC26400F437C3 /* Vendors(第三方) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Vendors(第三方)";
+			path = "/Users/viziner/Desktop/Demo/IDECase/IDECase/Class/../IDECase/IDECase/Class/Vender(第三方)";
+			sourceTree = "<absolute>";
+		};
+		E8DB02411C9FC26400F437C3 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E8DB022F1C9FC26400F437C3 /* Module(模块) */,
+				E8DB02341C9FC26400F437C3 /* General(公共) */,
+				E8DB02381C9FC26400F437C3 /* Expend(扩展) */,
+				E8DB023C1C9FC26400F437C3 /* Resource(资源) */,
+				E8DB023F1C9FC26400F437C3 /* Utils(工具) */,
+				E8DB02401C9FC26400F437C3 /* Vendors(第三方) */,
+			);
+			name = Class;
+			path = /Users/viziner/Desktop/Demo/DENCase/DENCase/../../IDECase/IDECase/Class;
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 

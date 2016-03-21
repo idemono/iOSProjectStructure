@@ -2,7 +2,7 @@
 //  IDEProjectStructureUITests.m
 //  IDEProjectStructureUITests
 //
-//  Created by viziner on 16/3/21.
+//  Created by idemonolater on 16/3/21.
 //  Copyright © 2016年 idemonolater. All rights reserved.
 //
 
